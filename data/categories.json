@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": "music",
+      "name": "Music",
+      "description": "Live music events, concerts, and performances in Naples",
+      "color": "#FF5733",
+      "whatsappLink": "https://chat.whatsapp.com/...",
+      "qrCode": "assets/images/qr-codes/music_qr.png"
+    },
+    {
+      "id": "food",
+      "name": "Food & Drink",
+      "description": "Food festivals, tastings, and culinary experiences",
+      "color": "#33FF57",
+      "whatsappLink": "https://chat.whatsapp.com/...",
+      "qrCode": "assets/images/qr-codes/food_qr.png"
+    },
+    {
+      "id": "art",
+      "name": "Art & Culture",
+      "description": "Art exhibitions, museum events, and cultural activities",
+      "color": "#3357FF",
+      "whatsappLink": "https://chat.whatsapp.com/...",
+      "qrCode": "assets/images/qr-codes/art_qr.png"
+    }
+  ]
+}

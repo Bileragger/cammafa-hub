@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cammafà Hub - Events in Naples</title>
+    <meta name="description" content="Discover events happening in Naples, find companions, and explore the city through community gatherings.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Cammafà Hub</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Events</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="site-content">
+        <div class="container">
+            <section class="filters-section">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search events or locations...">
+                </div>
+                
+                <div class="date-filter">
+                    <input type="text" id="date-picker" placeholder="Select dates">
+                </div>
+                
+                <div class="category-filter">
+                    <!-- Category filters will be dynamically generated here -->
+                </div>
+            </section>
+            
+            <div class="main-content">
+                <section class="map-section">
+                    <div id="map"></div>
+                </section>
+                
+                <section class="events-section">
+                    <h2>Upcoming Events</h2>
+                    <div class="events-grid" id="events-container">
+                        <!-- Events will be dynamically generated here -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2025 Cammafà Hub. Connecting Naples through events.</p>
+            </div>
+            <div class="social-links">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Templates -->
+    <template id="event-card-template">
+        <div class="event-card">
+            <div class="event-image">
+                <img src="" alt="">
+                <span class="event-category"></span>
+            </div>
+            <div class="event-details">
+                <h3 class="event-title"></h3>
+                <p class="event-date-time"></p>
+                <p class="event-location"></p>
+                <div class="event-actions">
+                    <button class="btn-calendar">Add to Calendar</button>
+                    <button class="btn-whatsapp">Join Group</button>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <!-- Application Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

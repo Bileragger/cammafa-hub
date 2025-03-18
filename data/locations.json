@@ -1,0 +1,37 @@
+{
+  "locations": [
+    {
+      "id": "location-1",
+      "name": "Piazza Bellini",
+      "address": "Piazza Bellini, 80138 Napoli NA",
+      "coordinates": {
+        "lat": 40.8505,
+        "lng": 14.2510
+      },
+      "venueType": "square",
+      "capacity": 500
+    },
+    {
+      "id": "location-2",
+      "name": "Piazza Dante",
+      "address": "Piazza Dante, 80135 Napoli NA",
+      "coordinates": {
+        "lat": 40.8497,
+        "lng": 14.2502
+      },
+      "venueType": "square",
+      "capacity": 1000
+    },
+    {
+      "id": "location-3",
+      "name": "MANN - Museo Archeologico Nazionale di Napoli",
+      "address": "Piazza Museo, 19, 80135 Napoli NA",
+      "coordinates": {
+        "lat": 40.8532,
+        "lng": 14.2508
+      },
+      "venueType": "museum",
+      "capacity": 300
+    }
+  ]
+}
